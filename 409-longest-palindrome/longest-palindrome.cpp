@@ -4,7 +4,7 @@ public:
         vector<int>upper(26,0);
         vector<int>lower(26,0);
         for(int i=0;i<s.size();i++){
-            if(s[i]>='a' && s[i] <= 'z')
+            if(s[i]>='a' )
                 lower[s[i]-'a']++;
             else
                 upper[s[i]-'A']++;
